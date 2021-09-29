@@ -22,4 +22,4 @@ a) ¿Qué hace la instrucción “mp.get(…)”?
 b) ¿Qué papel cumple “year” en esa instrucción?
 - Year, ademas de ser un numero que entra por parametro, vendria siendo la llave que el map buscaria en catalog['years'] para asi retornar la pareja completa llave-valor.
 c) ¿Qué hace la instrucción “me.getValue(…)”?
--Retorna el valor de una pareja de un Map
+-Retorna el valor de una pareja de un Map.

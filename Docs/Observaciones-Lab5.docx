@@ -14,7 +14,7 @@ b) ¿Qué papel cumple “book[‘goodreads_book_id’]” en esa instrucción?
 -book[‘goodreads_book_id’] al ser la llave de la pareja asociada llave-valor que recibe la funcion mp.put,  esta permite que se busque en el nuevo libro su respectivo ID y asi ser almacenado en el map usando ese ID como su llave. 
 Pues, en el archivo csv,el ID se consigue haciendo referencia a ‘goodreads_book_id’
 c) ¿Qué papel cumple el tercer parámetro “book” en esa instrucción?
--El tercer parametro 'book' es el valor asociado a la pareja llave-valor
+-El tercer parametro 'book' es el valor asociado a la pareja llave-valor dentro de la tabla de simbolos.
 
 
 a) ¿Qué hace la instrucción “mp.get(…)”?
@@ -22,4 +22,4 @@ a) ¿Qué hace la instrucción “mp.get(…)”?
 b) ¿Qué papel cumple “year” en esa instrucción?
 - Year, ademas de ser un numero que entra por parametro, vendria siendo la llave que el map buscaria en catalog['years'] para asi retornar la pareja completa llave-valor.
 c) ¿Qué hace la instrucción “me.getValue(…)”?
--Retorna el valor de una pareja de un Map.
+-Recibe como entrada la pareja llave-valor y retorna el valor de la pareja de un Map.
